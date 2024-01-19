@@ -69,7 +69,7 @@ def getweather():
         messagebox.showerror("Weather APP", "Invalid Entry")
 
 # search box
-search_image = PhotoImage(file=r"E:\Weather-App-master\Weather-App-master\search.png")
+search_image = PhotoImage(file=r"E:\Weather-App-master\search.png")
 
 myimage = Label(image=search_image)
 myimage.place(x=10, y=20)
@@ -78,18 +78,18 @@ textfield = tk.Entry(root, font=("Arial", 25, "bold"), justify="center", width=1
 textfield.place(x=80, y=40)
 textfield.focus()
 
-search_icon = PhotoImage(file=r"E:\Weather-App-master\Weather-App-master\search_icon.png")
+search_icon = PhotoImage(file=r"E:\Weather-App-master\search_icon.png")
 myimage_icon = Button(image=search_icon, borderwidth=0, cursor="hand2", bg="#404040", border=0,
                       activebackground="#404040", command=getweather)
 myimage_icon.place(x=390, y=34)
 
 # logo
-logo_image = PhotoImage(file=r"E:\Weather-App-master\Weather-App-master\logo.png")
+logo_image = PhotoImage(file=r"E:\Weather-App-master\logo.png")
 logo = Label(image=logo_image)
 logo.place(x=10, y=100)
 
 # button box
-frame_image = PhotoImage(file=r"E:\Weather-App-master\Weather-App-master\addbox.png")
+frame_image = PhotoImage(file=r"E:\Weather-App-master\addbox.png")
 frame = Label(image=frame_image)
 frame.pack(padx=5, pady=5, side=BOTTOM)
 
